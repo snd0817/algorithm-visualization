@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>ALGOVISI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="w3w.css">
+    <script src="https://kit.fontawesome.com/9d96aec67f.js" crossorigin="anonymous"></script>
+  </head>
+  <body> 
+
+    <section class="navigation w3-metro-light-blue w3-container">
+      <button onclick="goToTop()" id="back-to-top" title="Go to top"><i class="fa fa-toggle-up"></i></button>
+      <nav class="nav-container">
+        <div class="logo w3-padding-large"> 
+          <p>ALGOVISI</p>
+        </div>
+        <div class="mobile-button">
+          <span style="float: right;" onclick="toggleMobileNavigation()">&#9776;</span>
+        </div>
+        <div class="links">
+          <a href="#about" >ABOUT</a>-
+          <a href="Sorting_Visualizer-master/vizi.html" >VISTUALIZATION</a>-
+          <a href="#contact" >CONTACT</a>-    
+          <a href="quiz.html" >QUIZ</a>-    
+          <a href="G:/MINOR PROJECT/bhu/Sorting_Visualizer-master/Sorting_Visualizer-master/colorlib-regform-7/colorlib-regform-7/indexlogin.html" >LOGIN</a>
+          
+
+          <!--<button onclick="window.location.href='profile.html';" style="border:none;border-radius:50px; width: 55px;height: 45px; background-color: transparent;webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+          -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25); position: relative; left: 200px;
+    justify-content: center;">
+    <i class='fa-solid fa-user' style='font-size:25px; padding: 5%;'></i></a >-->
+        </div>
+    
+        <div id="mobile-sidenav" class="mobile-links w3-sand">
+          <a href="javascript:void(0)" class="closebtn w3-round" onclick="toggleMobileNavigation()">&times;</a>
+          <a href="#about" onclick="toggleMobileNavigation()">ABOUT</a>
+          <a href="Sorting_Visualizer-master/vizi.html" onclick="toggleMobileNavigation()">VISTUALIZATION</a>
+          <a href="#contact" onclick="toggleMobileNavigation()">CONTACT</a>
+          <a href="G:/MINOR PROJECT/bhu/Sorting_Visualizer-master/Sorting_Visualizer-master/colorlib-regform-7/colorlib-regform-7/indexlogin.html" >LOGIN</a>
+
+
+
+        </div>
+      </nav>
+    </section>
+
+    <section class="hero w3-padding-large w3-container">
+      <h1 style="display: inline;"><span><i class="fa fa-check-square-o"></i></span>Steer your visualization in the right direction!</h1>
+      <p> Visualising with ALGOVISI</p>
+      <a href="Admitcard.pdf" class="w3-padding-large w3-round" target="_blank">Explore</a>
+      
+    </section>
+
+    <section id="consulting" class="w3-container container consulting content">
+      <h2 style="text-align: center;">- What we do -</h2>
+      <div class="c-card w3-margin-top">
+        <p>We offer a platform where you can graphically visualize the basic algorithms.</p>
+      </div>
+      <div class="c-card c-card-right w3-margin-top">
+        <p>We aim to simplify and deepen the understanding of algorithms opertaion.</p>
+      </div>
+      <div class="c-card w3-margin-top">        
+        <p>We ask our customers to register themselves
+          for further convinience.</p>
+      </div>
+      <div class="c-card  c-card-right w3-margin-top">
+        <p>We recieve your valuable feedback to improve this site.</p>
+      </div>
+    </section>
+
+    <section class="testimonials w3-container w3-panel" style="padding: 50px;">
+      <h2 style="text-align: center;">- Some of our reviews -</h2>
+      <div class="slideshow-container">
+
+      <div class="mySlides"> 
+        <p><q><em>Definetely the best platform to clear your Algorithmic concepts.I have been struggling to understand these concepts,really this helped me alot,gonna recommend This to my friends too.</em></q></p>
+        <p class="author"><strong>-David Fransic</strong></p>
+      </div>
+
+      <div class="mySlides">
+        <p><q><em>This was pretty helpful for me because ,here i got exactly what iI needed to clear my concept of algorithmic analyis.</em></q></p>
+        <p class="author"><strong>-Aashish Narula </strong></p>
+      </div>
+
+      <div class="mySlides">
+        <p><q><em>Although there are many applications with the same services ,but I must say this is the best one so far.Thankyou ALGOVISI </em></q></p>
+        <p class="author"><strong>- Sambhavi Raj</strong></p>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      </div>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>      
+    </section>
+
+   
+
+    <section class="about w3-padding-large w3-container" id="about" >
+      <div class="content container w3-round-large">
+        <h2 style="text-align: center;">- Our Mission -</h2>
+        <p style="text-align: center;">To clear your concept of basic algorithm</p>
+        <h3 style="text-align: center;">- About -</h3>
+        
+        <p>We all find difiiculties in learning different algorithms through code.what if we could visualize it?Sounds amazing right!Learning an algorithm gets much easier with visualizing it.Now here comes the Algorithm Visualizer Algorithm visualizer is an interactive online platform that visualizes algorithms from code.It can be fruitful for the students who are learning Data Structures & Algorithms as well as for the teachers in teaching by which they can easily make their students understand different algorithms.This website can help you visualize sorting algorithms , path finding algrithms and many more. </p>
+      </div>
+
+      
+    </section>
+ <section class="contact w3-container contact" id="contact">
+      <div class="form w3-margin-top">
+        <div class="container w3-round-xlarge">
+          <form class="w3-highway-blue w3-padding-large w3-round-large">
+            <h3 style="text-align: center;"><i class="fa fa-check-square-o" style="font-size: 15px;"></i>Give us your Feedback</h3>
+            <label for="fname">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+            <label for="lname">Your email</label>
+            <input type="text" id="email" name="email" placeholder="Your email">
+            <label for="lname">Pick a date</label><br>
+            <input type="date" id="date" name="date" placeholder="Your date"><br><br>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <p>By submiting this form, we will get to know your reviews <a href="#" target="_blank"></a></p><br>
+            <input class="w3-round-large" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="w3-container footer">
+      <p class="w3-center logo">© 2022 - ALGOVISI - All rights reserved</p>
+    </section>
+
+
+  <script async>
+      const backToTop = document.getElementById("back-to-top");
+
+      function toggleMobileNavigation() {
+        const mobileNavigation = document.getElementById("mobile-sidenav");
+        mobileNavigation.classList.toggle('mobile-links-active');
+      }
+
+      function goToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      function scroll() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) backToTop.style.display = "block";
+        else backToTop.style.display = "none";
+      }
+
+      window.onscroll = function() {scroll()};
+  </script>
+  <script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+    </script>
+    
+  <script async>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      /*<script>
+        var loader=document.getElementById("preloder");
+        window.addEventListener("load",function(){
+            loader.style.display=none;
+        })*/
+    </script>
+ 
+  </script>
+  </body>
+</html>

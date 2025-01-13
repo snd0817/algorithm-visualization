@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualising</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body >
+
+   <header>
+       <div class="container-fluid">
+    <nav>
+            <div class="header_right">
+                <p class="nav-heading"></p>
+
+                <div class="algos">
+                    <button >Bubble</button>
+                    <button >Selection</button>
+                    <button >Insertion</button>
+                    <button >Merge</button>
+                    <button >Quick</button>
+                    <button style="margin-right: 0px;">Heap</button>
+                   
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section>
+        <div class="array-inputs">
+            <p >Size of the array:</p>
+            <input id="a_size" type="range" min=20 max=150 step=1 value=80 style="color: black;">
+            <br>
+            <p>Speed of the algorithm:</p>
+            <input id="a_speed" type="range" min=2 max=5 step=1 value=4>
+            
+            <br>
+            <br>
+            <button id="a_generate" class="w3-padding-large w3-round"> Wanna Generate New Array!</button>
+            <br><br><br><br><br>
+            
+ <!--<button   id="a_generate" class="w3-padding-large w3-round" action="alovisi/index.html" onclick="myOnClickFn()" style="margin-right: 0px;">Back to Home</button>-->
+        </div>
+
+        <div id="array_container">
+            
+        </div>
+        <div id="Info_Cont1">
+
+            <h5>TIME COMPLEXITY</h5>
+
+            <div class="Complexity_Containers" id="Time_Complexity_Types_Container">
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Time_Worst"></p>
+                </div>
+                
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Average case:</p>
+                    <p id="Time_Average"></p>
+                </div>
+                
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Best case:</p>
+                    <p id="Time_Best"></p>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="Info_Cont2">
+
+            <h6>SPACE COMPLEXITY</h6>
+
+            <div class="Complexity_Containers" id="Space_Complexity_Types_Container">
+
+                <div class="Pair_Definitions">
+                    <p class="Sub_Heading">Worst case:</p>
+                    <p id="Space_Worst"></p>
+                </div>
+                
+            </div>
+
+        </div>
+        </section>
+    </div>
+
+
+    </section>
+    <footer>
+    </footer>
+    <script>
+        function myOnClickFn(){
+            document.location.href="alovisi/index.html"
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./scripts/main.js"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="./scripts/visualizations.js"></script>  <!--This should be loaded after main.js-->
+    <script src="G:/MINOR PROJECT/bhu/New folder/Sorting_Visualizer-master/scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+</body>
+</html>

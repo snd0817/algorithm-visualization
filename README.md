@@ -20,17 +20,6 @@ Learning algorithms can be challenging when relying solely on theory. **Algovisi
 - **HTML & CSS** – Layout and styling.  
 - **Git** – Version control for project management.  
 
-## 📂 Project Structure  
-algovisi/
-├── public/              # Static assets
-├── src/                 # React components and logic
-│   ├── components/      # Algorithm visualizers and UI components
-│   ├── algorithms/      # Implementations of algorithms
-│   └── App.js           # Main app file
-├── package.json         # Dependencies and scripts
-└── README.md            # Documentation
-
-
 ## 🚀 Getting Started  
 
 ### 1. Clone the Repository  
